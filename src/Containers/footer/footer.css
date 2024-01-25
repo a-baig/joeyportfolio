@@ -1,0 +1,70 @@
+.pfolio__footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pfolio__footer-container__row1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 150px;
+}
+.pfolio__footer-container__row1 h2{
+    font-size: 120px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1em;
+    margin-bottom: 50px;
+}
+.pfolio__footer-container__row1 span a button{
+    background-color: #1d1d1d;
+    color: #fff;
+    font-size: 20px;
+    padding: 1.5rem 2rem;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.pfolio__footer-container__row2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    font-size: var(--body_font);
+    font-weight: var(--body_font-weight);
+
+    width: 100%;
+}
+.pfolio__footer-container__row2-links ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    list-style: none;
+    gap: 40px;
+}
+
+@media screen and (max-width:550px) {
+    .pfolio__footer-container__row1{
+        margin-bottom: 40px;
+    }
+    .pfolio__footer-container__row1 h2{
+        font-size: 60px;
+        margin-bottom: 48px;
+    }
+    .pfolio__footer-container__row1 span a button{
+        font-size: 19px;
+    }
+    .pfolio__footer-container__row2{
+        flex-direction: column;
+    }
+    .pfolio__footer-container__row2 div:nth-child(1){
+        margin-bottom: 18px;
+    }
+}

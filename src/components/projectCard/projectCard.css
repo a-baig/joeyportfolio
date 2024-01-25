@@ -1,0 +1,28 @@
+.pfolio__projcard{
+    width: 100%;
+    height: fit-content;
+}
+.pfolio__projcard-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 32px;
+    margin-bottom: 24px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.pfolio__projcard-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.pfolio__projcard-desc h4,
+.pfolio__projcard-desc p{
+    font-size: 22px;
+    font-weight: 500;
+}
+.pfolio__projcard-desc h4{
+    margin-bottom: 6px;
+}
+.pfolio__projcard-desc p{
+    font-weight: 400;
+}

@@ -1,0 +1,13 @@
+.pfolio__marquee{
+    padding: 20px 0;
+    margin-top: 16px;
+    background-color: #242424;
+
+}
+
+.pfolio__marquee marquee{
+    width: 100vw;
+}
+.pfolio__marquee marquee strong{
+    font-size: 80px;
+}
